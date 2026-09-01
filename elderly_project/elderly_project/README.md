@@ -42,8 +42,11 @@ Senior Detection
    ↓
 ESP32-S3
 
+---
+
 ## 사용 라이브러리
-OpenCV
-OpenVINO
-NumPy
-PySerial
+
+- OpenCV
+- OpenVINO
+- NumPy
+- PySerial
