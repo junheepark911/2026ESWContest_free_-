@@ -41,6 +41,21 @@ Age Estimation
 Senior Detection
    ↓
 ESP32-S3
+```
+
+결제 완료 후에는 다음과 같이 동작합니다.
+
+```text
+ESP32-S3
+   ↓
+PAYMENT_COMPLETE
+   ↓
+Python
+   ↓
+Arduino UNO
+   ↓
+Motor Return
+```
 
 ---
 
