@@ -3,8 +3,7 @@
 Python과 웹캠을 이용하여 사용자의 얼굴을 검출하고,
 OpenVINO 기반 연령 추정 모델을 통해 고령자 여부를 판단하는 프로그램입니다.
 
-고령자로 판단되면 ESP32-S3 키오스크에 `S` 신호를 전송하여
-고령자를 위한 **Simple Mode 전환 안내 팝업**을 실행합니다.
+고령자로 판단되면 고령자를 위한 **Simple Mode 전환 안내 팝업**을 실행합니다.
 
 또한 ESP32-S3에서 결제 완료 메시지를 수신하면
 Arduino UNO에 키오스크 모터 하단 복귀 명령을 전달합니다.
@@ -48,7 +47,7 @@ Age Estimation
 Senior Detection
 ```
 
-고령자로 판단되면 ESP32-S3에 `S` 신호를 전송합니다.
+고령자로 판단되면 ESP32-S3에 신호를 전송합니다.
 
 ```text
 Senior Detection
