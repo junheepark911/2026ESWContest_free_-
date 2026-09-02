@@ -91,37 +91,6 @@ Tea
 Shake
 ```
 
-각 카테고리 안에 여러 음료가 등록되어 있으며,
-전체 음료 항목은 총 16개입니다.
-
-### Coffee
-
-- Americano
-- Cafe Latte
-- Vanilla Latte
-- Cappuccino
-- Caramel Macchiato
-- Mocha
-- Espresso
-
-### Ade
-
-- Lemon Ade
-- Grapefruit Ade
-- Blueberry Ade
-
-### Tea
-
-- Peach Ice Tea
-- Green Tea
-- Milk Tea
-
-### Shake
-
-- Choco Shake
-- Strawberry Shake
-- Vanilla Shake
-
 각 메뉴에는 다음 정보가 저장되어 있습니다.
 
 ```text
