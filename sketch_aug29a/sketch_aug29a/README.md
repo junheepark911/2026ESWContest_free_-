@@ -198,7 +198,7 @@ Adafruit VL53L0X
 sketch_aug29a/
 │
 ├── sketch_aug29a.ino
-└── README.md
+
 ```
 
 ### sketch_aug29a.ino
