@@ -4,7 +4,7 @@ Python과 웹캠을 이용하여 사용자의 얼굴을 검출하고,
 OpenVINO 기반 연령 추정 모델을 통해 고령자 여부를 판단하는 프로그램입니다.
 
 고령자로 판단되면 ESP32-S3 키오스크에 `S` 신호를 전송하여
-고령자를 위한 Simple Mode 전환 안내 팝업을 실행합니다.
+고령자를 위한 **Simple Mode 전환 안내 팝업**을 실행합니다.
 
 또한 ESP32-S3에서 결제 완료 메시지를 수신하면
 Arduino UNO에 키오스크 모터 하단 복귀 명령을 전달합니다.
@@ -186,7 +186,11 @@ Motor Return
 - NumPy
 - PySerial
 
+필요한 라이브러리는 다음 명령으로 설치할 수 있습니다.
 
+```bash
+pip install opencv-python openvino numpy pyserial
+```
 
 ---
 
@@ -202,7 +206,7 @@ elderly_project/
 │   ├── age-gender-recognition-retail-0013.xml
 │   └── age-gender-recognition-retail-0013.bin
 │
-
+└── README.md
 ```
 
 ### elderly_detection_to_esp32_final.py
@@ -257,7 +261,11 @@ Serial 포트와 통신 상태를 확인할 때 사용할 수 있습니다.
 OpenVINO를 이용한 연령 추정에 필요한
 AI 모델 파일이 저장되어 있는 폴더입니다.
 
+사용 모델은 다음과 같습니다.
 
+```text
+age-gender-recognition-retail-0013
+```
 
 #### age-gender-recognition-retail-0013.xml
 
@@ -285,7 +293,7 @@ Age Estimation
 
 ## 전체 프로젝트에서의 역할
 
-이 폴더는 전체 프로젝트에서
+이 폴더는 전체 **Senior-Friendly-Kiosk** 프로젝트에서
 웹캠 기반 고령자 인식과 장치 간 통신을 담당합니다.
 
 ```text
